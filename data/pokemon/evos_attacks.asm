@@ -513,7 +513,7 @@ NidoranFEvosAttacks:
 	db 17, EARTHQUAKE
 	db 18, THUNDER
 	db 19, ICE_BEAM
-	db 20, LOVELY_KISS
+	db 20, SLEEP_POWDER
 	db 0 ; no more level-up moves
 
 NidorinaEvosAttacks:
@@ -527,7 +527,7 @@ NidorinaEvosAttacks:
 	db 17, EARTHQUAKE
 	db 18, THUNDER
 	db 19, ICE_BEAM
-	db 20, LOVELY_KISS
+	db 20, SLEEP_POWDER
 	db 0 ; no more level-up moves
 
 NidoqueenEvosAttacks:
@@ -540,7 +540,7 @@ NidoqueenEvosAttacks:
 	db 17, EARTHQUAKE
 	db 18, THUNDER
 	db 19, ICE_BEAM
-	db 20, LOVELY_KISS
+	db 20, SLEEP_POWDER
 	db 0 ; no more level-up moves
 
 NidoranMEvosAttacks:
@@ -552,7 +552,7 @@ NidoranMEvosAttacks:
 	db 9, DOUBLE_KICK
 	db 13, POISON_STING
 	db 17, EARTHQUAKE
-	db 18, LOVELY_KISS
+	db 18, SLEEP_POWDER
 	db 19, ICE_BEAM
 	db 20, THUNDER
 	db 0 ; no more level-up moves
@@ -566,7 +566,7 @@ NidorinoEvosAttacks:
 	db 9, DOUBLE_KICK
 	db 13, POISON_STING
 	db 17, EARTHQUAKE
-	db 18, LOVELY_KISS
+	db 18, SLEEP_POWDER
 	db 19, ICE_BEAM
 	db 20, THUNDER
 	db 0 ; no more level-up moves
@@ -579,7 +579,7 @@ NidokingEvosAttacks:
 	db 1, DOUBLE_KICK
 	db 1, POISON_STING
 	db 17, EARTHQUAKE
-	db 18, LOVELY_KISS
+	db 18, SLEEP_POWDER
 	db 19, ICE_BEAM
 	db 20, THUNDER
 	db 0 ; no more level-up moves
@@ -984,7 +984,7 @@ MeowthPlainEvosAttacks:
 	db 17, RETURN
 	db 18, SHADOW_BALL
 	db 19, SWAGGER
-	db 20, PSYCH_UP
+	db 20, SWORDS_DANCE
 	db 0 ; no more level-up moves
 
 MeowthAlolanEvosAttacks:
@@ -1020,7 +1020,7 @@ PersianPlainEvosAttacks:
 	db 17, RETURN
 	db 18, SHADOW_BALL
 	db 19, SWAGGER
-	db 20, PSYCH_UP
+	db 20, SWORDS_DANCE
 	db 0 ; no more level-up moves
 
 PersianAlolanEvosAttacks:
@@ -2681,7 +2681,7 @@ JynxEvosAttacks:
 	db 8, SCREECH ; Lovely Kiss → Let's Go move
 	db 11, ICY_WIND ; Powder Snow → TM move
 	db 15, DOUBLE_SLAP
-	db 17, LOVELY_KISS
+	db 17, SLEEP_POWDER
 	db 18, ICE_BEAM
 	db 19, PSYCHIC
 	db 20, THIEF
@@ -2712,7 +2712,7 @@ MagmarEvosAttacks:
 	db 12, FEINT_ATTACK
 	db 15, FIRE_SPIN
 	db 17, FIRE_BLAST
-	db 18, THUNDER_PUNCH
+	db 18, THUNDERPUNCH
 	db 19, CROSS_CHOP
 	db 20, DIG
 	db 0 ; no more level-up moves
@@ -5402,7 +5402,7 @@ MagbyEvosAttacks:
 	db 12, FEINT_ATTACK
 	db 15, FIRE_SPIN
 	db 17, FIRE_BLAST
-	db 18, THUNDER_PUNCH
+	db 18, THUNDERPUNCH
 	db 19, CROSS_CHOP
 	db 20, DIG
 	db 0 ; no more level-up moves
@@ -5418,7 +5418,7 @@ MagmortarEvosAttacks:
 	db 12, FEINT_ATTACK
 	db 15, FIRE_SPIN
 	db 17, FIRE_BLAST
-	db 18, THUNDER_PUNCH
+	db 18, THUNDERPUNCH
 	db 19, CROSS_CHOP
 	db 20, DIG
 	db 0 ; no more level-up moves
