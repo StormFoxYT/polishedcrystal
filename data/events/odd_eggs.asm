@@ -10,15 +10,15 @@ OddEggProbabilities:
 	table_width 2, OddEggProbabilities
 prob_total = 0
 ; Pichu
-	prob 0
+	prob 12
 ; Magby
-	prob 0
+	prob 24
 ; Elekid
-	prob 0
+	prob 24
 ; Tyrogue
-	prob 0
+	prob 20
 ; Munchlax
-	prob 100
+	prob 20
 	assert_table_length NUM_ODD_EGGS
 
 OddEggs:
