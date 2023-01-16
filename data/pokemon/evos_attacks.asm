@@ -2268,19 +2268,90 @@ HitmonchanEvosAttacks:
 	db 6, AGILITY
 	db 11, PURSUIT
 	db 13, MACH_PUNCH
-	db 17, BULLET_PUNCH
-	db 21, AERIAL_ACE ; Feint → new move
-	db 26, SEISMIC_TOSS ; Vacuum Wave → RBY TM move
-	db 31, FORESIGHT ; Quick Guard → new move
-	db 36, THUNDERPUNCH
-	db 36, ICE_PUNCH
-	db 36, FIRE_PUNCH
-	db 41, FOCUS_ENERGY ; Sky Uppercut → Let's Go move
-	db 46, DYNAMICPUNCH ; Mega Punch → TM move
-	db 51, PROTECT ; Detect → TM move
-	db 56, FOCUS_BLAST ; Focus Punch → TM move
-	db 61, COUNTER
-	db 66, CLOSE_COMBAT
+	db 17, HI_JUMP_KICK
+	db 18, RETURN
+	db 19, COUNTER
+	db 20, SHADOW_BALL
+	db 21, HI_JUMP_KICK
+	db 22, RETURN
+	db 23, COUNTER
+	db 24, SHADOW_BALL
+	db 25, HI_JUMP_KICK
+	db 26, RETURN
+	db 27, COUNTER
+	db 28, SHADOW_BALL
+	db 29, HI_JUMP_KICK
+	db 30, RETURN
+	db 31, COUNTER
+	db 32, SHADOW_BALL
+	db 33, HI_JUMP_KICK
+	db 34, RETURN
+	db 35, COUNTER
+	db 36, SHADOW_BALL
+	db 37, HI_JUMP_KICK
+	db 38, RETURN
+	db 39, COUNTER
+	db 40, SHADOW_BALL
+	db 41, HI_JUMP_KICK
+	db 42, RETURN
+	db 43, COUNTER
+	db 44, SHADOW_BALL
+	db 45, HI_JUMP_KICK
+	db 46, RETURN
+	db 47, COUNTER
+	db 48, SHADOW_BALL
+	db 49, HI_JUMP_KICK
+	db 50, RETURN
+	db 51, COUNTER
+	db 52, SHADOW_BALL
+	db 53, HI_JUMP_KICK
+	db 54, RETURN
+	db 55, COUNTER
+	db 56, SHADOW_BALL
+	db 57, HI_JUMP_KICK
+	db 58, RETURN
+	db 59, COUNTER
+	db 60, SHADOW_BALL
+	db 61, HI_JUMP_KICK
+	db 62, RETURN
+	db 63, COUNTER
+	db 64, SHADOW_BALL
+	db 65, HI_JUMP_KICK
+	db 66, RETURN
+	db 67, COUNTER
+	db 68, SHADOW_BALL
+	db 69, HI_JUMP_KICK
+	db 70, RETURN
+	db 71, COUNTER
+	db 72, SHADOW_BALL
+	db 73, HI_JUMP_KICK
+	db 74, RETURN
+	db 75, COUNTER
+	db 76, SHADOW_BALL
+	db 77, HI_JUMP_KICK
+	db 78, RETURN
+	db 79, COUNTER
+	db 80, SHADOW_BALL
+	db 81, HI_JUMP_KICK
+	db 82, RETURN
+	db 83, COUNTER
+	db 84, SHADOW_BALL
+	db 85, HI_JUMP_KICK
+	db 86, RETURN
+	db 87, COUNTER
+	db 88, SHADOW_BALL
+	db 89, HI_JUMP_KICK
+	db 90, RETURN
+	db 91, COUNTER
+	db 92, SHADOW_BALL
+	db 93, HI_JUMP_KICK
+	db 94, RETURN
+	db 95, COUNTER
+	db 96, SHADOW_BALL
+	db 97, HI_JUMP_KICK
+	db 98, RETURN
+	db 99, COUNTER
+	db 100, SHADOW_BALL
 	db 0 ; no more level-up moves
 
 KoffingEvosAttacks:
@@ -2625,14 +2696,10 @@ ElectabuzzEvosAttacks:
 	db 8, LOW_KICK
 	db 12, SWIFT
 	db 15, BULK_UP ; Shock Wave → TM move
-	db 19, THUNDER_WAVE
-	db 22, KARATE_CHOP ; Electro Ball → egg move
-	db 26, LIGHT_SCREEN
-	db 29, THUNDERPUNCH
-	db 36, SCREECH ; Discharge → Screech
-	db 42, CROSS_CHOP ; Screech → new move
-	db 49, THUNDERBOLT
-	db 55, THUNDER
+	db 17, THUNDER
+	db 18, PSYCHIC
+	db 19, ICE_PUNCH
+	db 20, PURSUIT
 	db 0 ; no more level-up moves
 
 MagmarEvosAttacks:
@@ -2644,14 +2711,10 @@ MagmarEvosAttacks:
 	db 8, SMOKESCREEN
 	db 12, FEINT_ATTACK
 	db 15, FIRE_SPIN
-	db 19, LOW_KICK ; Clear Smog → HGSS tutor move
-	db 22, FLAME_CHARGE ; Flame Burst → TM move
-	db 26, CONFUSE_RAY
-	db 29, FIRE_PUNCH
-	db 36, SUNNY_DAY ; Lava Plume → Sunny Day
-	db 42, FOCUS_BLAST ; Sunny Day → TM move
-	db 49, FLAMETHROWER
-	db 55, FIRE_BLAST
+	db 17, FIRE_BLAST
+	db 18, THUNDER_PUNCH
+	db 19, CROSS_CHOP
+	db 20, DIG
 	db 0 ; no more level-up moves
 
 PinsirEvosAttacks:
@@ -3173,17 +3236,10 @@ SnorlaxEvosAttacks:
 	db 4, DEFENSE_CURL
 	db 9, AMNESIA
 	db 12, LICK
-	db 17, RAGE ; Chip Away → RBY TM move
-	db 20, TAKE_DOWN ; Yawn → RBY TM move
-	db 25, BODY_SLAM
-	db 28, REST
-	db 33, SLEEP_TALK
-	db 36, ROLLOUT
-	db 41, OUTRAGE ; Block → HGSS tutor move
-	db 44, BELLY_DRUM
-	db 49, CRUNCH
-	db 50, CLOSE_COMBAT ; Heavy Slam → new move
-	db 57, GIGA_IMPACT
+	db 17, DOUBLE_EDGE
+	db 18, FLAMETHROWER
+	db 19, TOXIC
+	db 20, REST
 	db 0 ; no more level-up moves
 
 ArticunoPlainEvosAttacks:
@@ -3818,17 +3874,10 @@ MunchlaxEvosAttacks:
 	db 4, DEFENSE_CURL
 	db 9, AMNESIA
 	db 12, LICK
-	db 17, RAGE ; Chip Away → RBY TM move
-	db 20, TAKE_DOWN ; Screech → RBY TM move
-	db 25, BODY_SLAM
-	db 28, SCREECH ; Stockpile → Screech
-	db 33, PROTECT ; Swallow → TM move
-	db 36, ROLLOUT
-	db 41, OUTRAGE ; Fling → HGSS tutor move
-	db 44, BELLY_DRUM
-	db 49, CRUNCH ; Natural Gift → Snorlax move
-	db 50, GUNK_SHOT ; Snatch → egg move
-	db 57, DOUBLE_EDGE ; Last Resort → egg move
+	db 17, DOUBLE_EDGE
+	db 18, FLAMETHROWER
+	db 19, TOXIC
+	db 20, REST
 	db 0 ; no more level-up moves
 
 MagnezoneEvosAttacks:
@@ -4187,14 +4236,90 @@ EspeonEvosAttacks:
 	db 5, MUD_SLAP ; Sand Attack → similar move
 	db 9, DOUBLE_KICK ; Baby-Doll Eyes → Let's Go move
 	db 13, QUICK_ATTACK
-	db 17, SWIFT
-	db 20, PSYBEAM
-	db 25, FUTURE_SIGHT
-	db 29, REFLECT ; Psych Up → event move
-	db 33, HEALINGLIGHT ; Morning Sun → similar move
-	db 37, PSYCHIC_M
-	db 41, DOUBLE_EDGE ; Last Resort → tutor move
-	db 45, POWER_GEM ; Power Swap → new move
+	db 17, GROWTH
+	db 18, PSYCHIC
+	db 19, WATERFALL
+	db 20, HEALINGLIGHT
+	db 21, GROWTH
+	db 22, PSYCHIC
+	db 23, WATERFALL
+	db 24, HEALINGLIGHT
+	db 25, GROWTH
+	db 26, PSYCHIC
+	db 27, WATERFALL
+	db 28, HEALINGLIGHT
+	db 29, GROWTH
+	db 30, PSYCHIC
+	db 31, WATERFALL
+	db 32, HEALINGLIGHT
+	db 33, GROWTH
+	db 34, PSYCHIC
+	db 35, WATERFALL
+	db 36, HEALINGLIGHT
+	db 37, GROWTH
+	db 38, PSYCHIC
+	db 39, WATERFALL
+	db 40, HEALINGLIGHT
+	db 41, GROWTH
+	db 42, PSYCHIC
+	db 43, WATERFALL
+	db 44, HEALINGLIGHT
+	db 45, GROWTH
+	db 46, PSYCHIC
+	db 47, WATERFALL
+	db 48, HEALINGLIGHT
+	db 49, GROWTH
+	db 50, PSYCHIC
+	db 51, WATERFALL
+	db 52, HEALINGLIGHT
+	db 53, GROWTH
+	db 54, PSYCHIC
+	db 55, WATERFALL
+	db 56, HEALINGLIGHT
+	db 57, GROWTH
+	db 58, PSYCHIC
+	db 59, WATERFALL
+	db 60, HEALINGLIGHT
+	db 61, GROWTH
+	db 62, PSYCHIC
+	db 63, WATERFALL
+	db 64, HEALINGLIGHT
+	db 65, GROWTH
+	db 66, PSYCHIC
+	db 67, WATERFALL
+	db 68, HEALINGLIGHT
+	db 69, GROWTH
+	db 70, PSYCHIC
+	db 71, WATERFALL
+	db 72, HEALINGLIGHT
+	db 73, GROWTH
+	db 74, PSYCHIC
+	db 75, WATERFALL
+	db 76, HEALINGLIGHT
+	db 77, GROWTH
+	db 78, PSYCHIC
+	db 79, WATERFALL
+	db 80, HEALINGLIGHT
+	db 81, GROWTH
+	db 82, PSYCHIC
+	db 83, WATERFALL
+	db 84, HEALINGLIGHT
+	db 85, GROWTH
+	db 86, PSYCHIC
+	db 87, WATERFALL
+	db 88, HEALINGLIGHT
+	db 89, GROWTH
+	db 90, PSYCHIC
+	db 91, WATERFALL
+	db 92, HEALINGLIGHT
+	db 93, GROWTH
+	db 94, PSYCHIC
+	db 95, WATERFALL
+	db 96, HEALINGLIGHT
+	db 97, GROWTH
+	db 98, PSYCHIC
+	db 99, WATERFALL
+	db 100, HEALINGLIGHT
 	db 0 ; no more level-up moves
 
 UmbreonEvosAttacks:
@@ -4206,14 +4331,90 @@ UmbreonEvosAttacks:
 	db 5, MUD_SLAP ; Sand Attack → similar move
 	db 9, DOUBLE_KICK ; Baby-Doll Eyes → Let's Go move
 	db 13, QUICK_ATTACK
-	db 17, CONFUSE_RAY
-	db 20, FEINT_ATTACK
-	db 25, TOXIC ; Assurance → TM move
-	db 29, SCREECH
-	db 33, HEALINGLIGHT ; Moonlight → similar move
-	db 37, SUCKER_PUNCH ; Mean Look → tutor move
-	db 41, DOUBLE_EDGE ; Last Resort → tutor move
-	db 45, MEAN_LOOK ; Guard Swap → Mean Look
+	db 17, CHARM
+	db 18, PURSUIT
+	db 19, SLEEP_TALK
+	db 20, REST
+	db 21, CHARM
+	db 22, PURSUIT
+	db 23, SLEEP_TALK
+	db 24, REST
+	db 25, CHARM
+	db 26, PURSUIT
+	db 27, SLEEP_TALK
+	db 28, REST
+	db 29, CHARM
+	db 30, PURSUIT
+	db 31, SLEEP_TALK
+	db 32, REST
+	db 33, CHARM
+	db 34, PURSUIT
+	db 35, SLEEP_TALK
+	db 36, REST
+	db 37, CHARM
+	db 38, PURSUIT
+	db 39, SLEEP_TALK
+	db 40, REST
+	db 41, CHARM
+	db 42, PURSUIT
+	db 43, SLEEP_TALK
+	db 44, REST
+	db 45, CHARM
+	db 46, PURSUIT
+	db 47, SLEEP_TALK
+	db 48, REST
+	db 49, CHARM
+	db 50, PURSUIT
+	db 51, SLEEP_TALK
+	db 52, REST
+	db 53, CHARM
+	db 54, PURSUIT
+	db 55, SLEEP_TALK
+	db 56, REST
+	db 57, CHARM
+	db 58, PURSUIT
+	db 59, SLEEP_TALK
+	db 60, REST
+	db 61, CHARM
+	db 62, PURSUIT
+	db 63, SLEEP_TALK
+	db 64, REST
+	db 65, CHARM
+	db 66, PURSUIT
+	db 67, SLEEP_TALK
+	db 68, REST
+	db 69, CHARM
+	db 70, PURSUIT
+	db 71, SLEEP_TALK
+	db 72, REST
+	db 73, CHARM
+	db 74, PURSUIT
+	db 75, SLEEP_TALK
+	db 76, REST
+	db 77, CHARM
+	db 78, PURSUIT
+	db 79, SLEEP_TALK
+	db 80, REST
+	db 81, CHARM
+	db 82, PURSUIT
+	db 83, SLEEP_TALK
+	db 84, REST
+	db 85, CHARM
+	db 86, PURSUIT
+	db 87, SLEEP_TALK
+	db 88, REST
+	db 89, CHARM
+	db 90, PURSUIT
+	db 91, SLEEP_TALK
+	db 92, REST
+	db 93, CHARM
+	db 94, PURSUIT
+	db 95, SLEEP_TALK
+	db 96, REST
+	db 97, CHARM
+	db 98, PURSUIT
+	db 99, SLEEP_TALK
+	db 100, REST
 	db 0 ; no more level-up moves
 
 MurkrowEvosAttacks:
@@ -5074,16 +5275,90 @@ HitmontopEvosAttacks:
 	db 6, FOCUS_ENERGY
 	db 10, PURSUIT
 	db 15, QUICK_ATTACK
-	db 19, RAPID_SPIN
-	db 24, FEINT_ATTACK ; Feint → new move
-	db 28, COUNTER
-	db 33, DOUBLE_KICK ; Triple Kick → similar move
-	db 37, AGILITY
-	db 42, GYRO_BALL
-	db 46, FORESIGHT ; Wide Guard + Quick Guard → new move
-	db 50, PROTECT ; Detect → similar move
-	db 55, CLOSE_COMBAT
-	db 60, REVERSAL ; Endeavor → new move
+	db 17, HI_JUMP_KICK
+	db 18, CURSE
+	db 19, COUNTER
+	db 20, SHADOW_BALL
+	db 21, HI_JUMP_KICK
+	db 22, CURSE
+	db 23, COUNTER
+	db 24, SHADOW_BALL
+	db 25, HI_JUMP_KICK
+	db 26, CURSE
+	db 27, COUNTER
+	db 28, SHADOW_BALL
+	db 29, HI_JUMP_KICK
+	db 30, CURSE
+	db 31, COUNTER
+	db 32, SHADOW_BALL
+	db 33, HI_JUMP_KICK
+	db 34, CURSE
+	db 35, COUNTER
+	db 36, SHADOW_BALL
+	db 37, HI_JUMP_KICK
+	db 38, CURSE
+	db 39, COUNTER
+	db 40, SHADOW_BALL
+	db 41, HI_JUMP_KICK
+	db 42, CURSE
+	db 43, COUNTER
+	db 44, SHADOW_BALL
+	db 45, HI_JUMP_KICK
+	db 46, CURSE
+	db 47, COUNTER
+	db 48, SHADOW_BALL
+	db 49, HI_JUMP_KICK
+	db 50, CURSE
+	db 51, COUNTER
+	db 52, SHADOW_BALL
+	db 53, HI_JUMP_KICK
+	db 54, CURSE
+	db 55, COUNTER
+	db 56, SHADOW_BALL
+	db 57, HI_JUMP_KICK
+	db 58, CURSE
+	db 59, COUNTER
+	db 60, SHADOW_BALL
+	db 61, HI_JUMP_KICK
+	db 62, CURSE
+	db 63, COUNTER
+	db 64, SHADOW_BALL
+	db 65, HI_JUMP_KICK
+	db 66, CURSE
+	db 67, COUNTER
+	db 68, SHADOW_BALL
+	db 69, HI_JUMP_KICK
+	db 70, CURSE
+	db 71, COUNTER
+	db 72, SHADOW_BALL
+	db 73, HI_JUMP_KICK
+	db 74, CURSE
+	db 75, COUNTER
+	db 76, SHADOW_BALL
+	db 77, HI_JUMP_KICK
+	db 78, CURSE
+	db 79, COUNTER
+	db 80, SHADOW_BALL
+	db 81, HI_JUMP_KICK
+	db 82, CURSE
+	db 83, COUNTER
+	db 84, SHADOW_BALL
+	db 85, HI_JUMP_KICK
+	db 86, CURSE
+	db 87, COUNTER
+	db 88, SHADOW_BALL
+	db 89, HI_JUMP_KICK
+	db 90, CURSE
+	db 91, COUNTER
+	db 92, SHADOW_BALL
+	db 93, HI_JUMP_KICK
+	db 94, CURSE
+	db 95, COUNTER
+	db 96, SHADOW_BALL
+	db 97, HI_JUMP_KICK
+	db 98, CURSE
+	db 99, COUNTER
+	db 100, SHADOW_BALL
 	db 0 ; no more level-up moves
 
 ElekidEvosAttacks:
@@ -5095,14 +5370,10 @@ ElekidEvosAttacks:
 	db 8, LOW_KICK
 	db 12, SWIFT
 	db 15, BULK_UP ; Shock Wave → TM move
-	db 19, THUNDER_WAVE
-	db 22, KARATE_CHOP ; Electro Ball → egg move
-	db 26, LIGHT_SCREEN
-	db 29, THUNDERPUNCH
-	db 33, SCREECH ; Discharge → Screech
-	db 36, CROSS_CHOP ; Screech → new move
-	db 40, THUNDERBOLT
-	db 43, THUNDER
+	db 17, THUNDER
+	db 18, PSYCHIC
+	db 19, ICE_PUNCH
+	db 20, PURSUIT
 	db 0 ; no more level-up moves
 
 ElectivireEvosAttacks:
@@ -5115,15 +5386,10 @@ ElectivireEvosAttacks:
 	db 8, LOW_KICK
 	db 12, SWIFT
 	db 15, BULK_UP ; Shock Wave → TM move
-	db 19, THUNDER_WAVE
-	db 22, KARATE_CHOP ; Electro Ball → egg move
-	db 26, LIGHT_SCREEN
-	db 29, THUNDERPUNCH
-	db 36, SCREECH ; Discharge → Screech
-	db 42, CROSS_CHOP ; Screech → new move
-	db 49, THUNDERBOLT
-	db 55, THUNDER
-	db 62, GIGA_IMPACT
+	db 17, THUNDER
+	db 18, PSYCHIC
+	db 19, ICE_PUNCH
+	db 20, PURSUIT
 	db 0 ; no more level-up moves
 
 MagbyEvosAttacks:
@@ -5135,14 +5401,10 @@ MagbyEvosAttacks:
 	db 8, SMOKESCREEN
 	db 12, FEINT_ATTACK
 	db 15, FIRE_SPIN
-	db 19, LOW_KICK ; Clear Smog → HGSS tutor move
-	db 22, FLAME_CHARGE ; Flame Burst → TM move
-	db 26, CONFUSE_RAY
-	db 29, FIRE_PUNCH
-	db 33, SUNNY_DAY ; Lava Plume → Sunny Day
-	db 36, FOCUS_BLAST ; Sunny Day → TM move
-	db 40, FLAMETHROWER
-	db 43, FIRE_BLAST
+	db 17, FIRE_BLAST
+	db 18, THUNDER_PUNCH
+	db 19, CROSS_CHOP
+	db 20, DIG
 	db 0 ; no more level-up moves
 
 MagmortarEvosAttacks:
@@ -5155,15 +5417,10 @@ MagmortarEvosAttacks:
 	db 8, SMOKESCREEN
 	db 12, FEINT_ATTACK
 	db 15, FIRE_SPIN
-	db 19, LOW_KICK ; Clear Smog → HGSS tutor move
-	db 22, FLAME_CHARGE ; Flame Burst → TM move
-	db 26, CONFUSE_RAY
-	db 29, FIRE_PUNCH
-	db 36, SUNNY_DAY ; Lava Plume → Sunny Day
-	db 42, FOCUS_BLAST ; Sunny Day → TM move
-	db 49, FLAMETHROWER
-	db 55, FIRE_BLAST
-	db 62, HYPER_BEAM
+	db 17, FIRE_BLAST
+	db 18, THUNDER_PUNCH
+	db 19, CROSS_CHOP
+	db 20, DIG
 	db 0 ; no more level-up moves
 
 MiltankEvosAttacks:
