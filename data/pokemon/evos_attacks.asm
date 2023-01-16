@@ -2928,7 +2928,7 @@ VaporeonEvosAttacks:
 	db 97, SURF
 	db 98, GROWTH
 	db 99, REST
-	db 100, SLEEP TALK
+	db 100, SLEEP_TALK
 	db 0 ; no more level-up moves
 
 JolteonEvosAttacks:
@@ -3251,7 +3251,7 @@ ArticunoPlainEvosAttacks:
 	db 15, SAFEGUARD ; Ice Shard → new move
 	db 17, REST
 	db 18, SLEEP_TALK
-	db 19, ICE BEAM
+	db 19, ICE_BEAM
 	db 20, TOXIC
 	db 0 ; no more level-up moves
 
