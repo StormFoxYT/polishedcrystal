@@ -43,21 +43,31 @@ Marts:
 	assert_table_length NUM_MARTS
 
 CherrygroveMart:
-	db 4 ; # items
+	db 9 ; # items
 	db POTION
 	db ANTIDOTE
 	db PARALYZEHEAL
 	db AWAKENING
+	db MASTER_BALL
+	db RARE_CANDY
+	db LEFTOVERS
+	db CHARCOAL
+	db LUM_BERRY
 	db -1
 
 CherrygroveMartAfterDex:
-	db 6 ; # items
+	db 11 ; # items
 	db POKE_BALL
 	db HEAL_BALL
 	db POTION
 	db ANTIDOTE
 	db PARALYZEHEAL
 	db AWAKENING
+	db MASTER_BALL
+	db RARE_CANDY
+	db LEFTOVERS
+	db CHARCOAL
+	db LUM_BERRY
 	db -1
 
 VioletMart:
